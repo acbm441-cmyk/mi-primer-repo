@@ -1,0 +1,15 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# ORÁCULO · AACC-PANDHARPUR — stack Python alineado con fpppy
+# (Forecasting: Principles and Practice, ed. Python — otexts.com/fpppy)
+# Python 3.14.7 · Windows x64
+#
+# Dependencias de nivel superior. numpy / pandas / scipy se resuelven
+# automáticamente como dependencias. Las versiones EXACTAS verificadas se
+# congelan en requirements.lock.txt (pip freeze) tras cada instalación.
+# ─────────────────────────────────────────────────────────────────────────────
+
+statsmodels>=0.15.0      # ETS, ARIMA/SARIMA, STL, Theta (métodos benchmark M4)
+scikit-learn>=1.7.0      # regresores y calibración probabilística (M5-style, P(evento|X))
+sktime>=0.37.0           # orquestación forecasting: AutoETS, reducción, pipelines
+pmdarima>=2.1.1          # AutoARIMA stepwise (protocolo M4 de auto-selección)
+matplotlib>=3.10.0       # gráficos de pronóstico (FPP workflow estándar)

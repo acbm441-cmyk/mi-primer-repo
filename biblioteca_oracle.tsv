@@ -1,0 +1,101 @@
+id	seccion	tipo	autores	titulo	anio	core	rol
+1	I-Forecasting	libro	Hyndman, R. J.; Athanasopoulos, G.	Forecasting: Principles and Practice (ed. Python 2026)	2021	CORE	forecasting
+2	I-Forecasting	libro	Box, G. E. P.; Jenkins, G. M.; Reinsel, G. C.; Ljung, G. M.	Time Series Analysis: Forecasting and Control	2015	CORE	forecasting
+3	I-Forecasting	libro	Armstrong, J. S. (ed.)	Principles of Forecasting: A Handbook for Researchers and Practitioners	2001	CORE	forecasting
+4	I-Forecasting	libro	Makridakis, S.; Wheelwright, S. C.; Hyndman, R. J.	Forecasting: Methods and Applications	1998	ESP	forecasting
+5	I-Forecasting	libro	Tetlock, P. E.; Gardner, D.	Superforecasting: The Art and Science of Prediction	2015	CORE	superforecasting
+6	I-Forecasting	libro	Tetlock, P. E.	Expert Political Judgment: How Good Is It? How Can We Know?	2005	CORE	calibracion
+7	I-Forecasting	libro	Silver, N.	The Signal and the Noise	2012	ESP	señal-ruido
+8	I-Forecasting	paper	Makridakis, S.; Spiliotis, E.; Assimakopoulos, V.	The M4 Competition: 100,000 Time Series and 61 Forecasting Methods	2020	CORE	benchmark
+9	I-Forecasting	paper	Makridakis, S.; Spiliotis, E.; Assimakopoulos, V.	M5 Accuracy Competition: Results, Findings, and Conclusions	2022	CORE	benchmark
+10	I-Forecasting	paper	Smyl, S.	A Hybrid Method of Exponential Smoothing and Recurrent Neural Networks for Time Series Forecasting	2020	ESP	ensemble
+11	I-Forecasting	paper	Bates, J. M.; Granger, C. W. J.	The Combination of Forecasts	1969	CORE	ensemble
+12	I-Forecasting	paper	Clemen, R. T.	Combining Forecasts: A Review and Annotated Bibliography	1989	ESP	ensemble
+13	I-Forecasting	paper	Makridakis, S.; Hibon, M.	The M3-Competition: Results, Conclusions and Implications	2000	ESP	benchmark
+14	I-Forecasting	paper	Makridakis, S.; Andersen, A.; Carbone, R.; Fildes, R.; Hibon, M.; Lewandowski, R.; Newton, J.; Parzen, E.; Winkler, R.	The Accuracy of Extrapolation (Time Series) Methods: Results of a Forecasting Competition	1982	ESP	benchmark
+15	I-Forecasting	paper	Makridakis, S.; Petropoulos, F.	The M4 Competition: Conclusions	2020	ESP	benchmark
+16	II-Bayes	libro	Gelman, A.; Carlin, J. B.; Stern, H. S.; Dunson, D. B.; Vehtari, A.; Rubin, D. B.	Bayesian Data Analysis (3a ed.)	2013	CORE	bayes
+17	II-Bayes	libro	McElreath, R.	Statistical Rethinking: A Bayesian Course with Examples in R and Stan	2020	ESP	bayes
+18	II-Bayes	libro	Jaynes, E. T.	Probability Theory: The Logic of Science	2003	CORE	bayes
+19	II-Bayes	libro	de Finetti, B.	Theory of Probability	1974	ESP	bayes
+20	II-Bayes	libro	Berger, J. O.	Statistical Decision Theory and Bayesian Analysis (2a ed.)	1985	CORE	decision-bayes
+21	II-Bayes	libro	Bernardo, J. M.; Smith, A. F. M.	Bayesian Theory	1994	ESP	bayes
+22	II-Bayes	libro	Robert, C. P.	The Bayesian Choice	2001	ESP	bayes
+23	II-Bayes	libro	Kruschke, J. K.	Doing Bayesian Data Analysis (2a ed.)	2014	ESP	bayes
+24	II-Bayes	libro	Sivia, D. S.; Skilling, J.	Data Analysis: A Bayesian Tutorial (2a ed.)	2006	ESP	bayes
+25	II-Bayes	libro	Pearl, J.	Probabilistic Reasoning in Intelligent Systems	1988	ESP	grafos-bayes
+26	II-Bayes	libro	Jeffreys, H.	Theory of Probability (3a ed.)	1961	ESP	bayes
+27	II-Bayes	libro	Lindley, D. V.	Understanding Uncertainty (2a ed.)	2014	ESP	incertidumbre
+28	II-Bayes	libro	O'Hagan, A.; Forster, J.	Kendall's Advanced Theory of Statistics: Bayesian Inference	2004	ESP	bayes
+29	II-Bayes	libro	Gelman, A.; Hill, J.	Data Analysis Using Regression and Multilevel/Hierarchical Models	2007	ESP	regresion
+30	II-Bayes	libro	Gelman, A.; Hill, J.; Vehtari, A.	Regression and Other Stories	2020	ESP	regresion
+31	III-Calibracion	paper	Brier, G. W.	Verification of Forecasts Expressed in Terms of Probability	1950	CORE	brier-score
+32	III-Calibracion	paper	Gneiting, T.; Raftery, A. E.	Strictly Proper Scoring Rules, Prediction, and Estimation	2007	CORE	scoring-rules
+33	III-Calibracion	paper	Dawid, A. P.	The Well-Calibrated Bayesian	1982	CORE	calibracion
+34	III-Calibracion	paper	Murphy, A. H.	A New Vector Partition of the Probability Score	1973	ESP	scoring-rules
+35	III-Calibracion	paper	Savage, L. J.	Elicitation of Personal Probabilities and Expectations	1971	ESP	elicitation
+36	III-Calibracion	paper	DeGroot, M. H.; Fienberg, S. E.	The Comparison and Evaluation of Forecasters	1983	ESP	evaluacion
+37	III-Calibracion	paper	Gneiting, T.; Katzfuss, M.	Probabilistic Forecasting	2014	ESP	forecasting-prob
+38	III-Calibracion	paper	Brocker, J.; Smith, L. A.	Scoring Probabilistic Forecasts: The Importance of Being Proper	2007	ESP	scoring-rules
+39	III-Calibracion	paper	Guo, C.; Pleiss, G.; Sun, Y.; Weinberger, K. Q.	On Calibration of Modern Neural Networks	2017	ESP	calibracion-ML
+40	III-Calibracion	paper	Niculescu-Mizil, A.; Caruana, R.	Predicting Good Probabilities with Supervised Learning	2005	ESP	calibracion-ML
+41	IV-Decision	libro	von Neumann, J.; Morgenstern, O.	Theory of Games and Economic Behavior	1944	CORE	utilidad
+42	IV-Decision	libro	Savage, L. J.	The Foundations of Statistics	1972	ESP	decision
+43	IV-Decision	libro	Raiffa, H.	Decision Analysis: Introductory Lectures on Choices Under Uncertainty	1968	ESP	decision
+44	IV-Decision	libro	Howard, R. A.; Abbas, A. E.	Foundations of Decision Analysis	2015	ESP	decision
+45	IV-Decision	libro	Clemen, R. T.; Reilly, T.	Making Hard Decisions with DecisionTools	2013	ESP	decision
+46	IV-Decision	libro	Hubbard, D. W.	How to Measure Anything: Finding the Value of Intangibles in Business	2014	ESP	medicion
+47	IV-Decision	libro	Hubbard, D. W.	The Failure of Risk Management	2009	ESP	riesgo
+48	IV-Decision	libro	Goodwin, P.; Wright, G.	Decision Analysis for Management Judgment	2014	ESP	decision
+49	IV-Decision	paper	North, D. W.	A Tutorial Introduction to Decision Theory	1968	ESP	decision
+50	IV-Decision	paper	Howard, R. A.	Information Value Theory	1966	ESP	value-of-information
+51	V-Sesgos	libro	Kahneman, D.	Thinking, Fast and Slow	2011	CORE	sesgos
+52	V-Sesgos	libro	Kahneman, D.; Slovic, P.; Tversky, A. (eds.)	Judgment Under Uncertainty: Heuristics and Biases	1982	ESP	sesgos
+53	V-Sesgos	paper	Tversky, A.; Kahneman, D.	Judgment under Uncertainty: Heuristics and Biases (Science)	1974	CORE	sesgos
+54	V-Sesgos	paper	Kahneman, D.; Tversky, A.	Prospect Theory: An Analysis of Decision under Risk	1979	ESP	prospect-theory
+55	V-Sesgos	paper	Tversky, A.; Kahneman, D.	The Framing of Decisions and the Psychology of Choice	1981	ESP	framing
+56	V-Sesgos	libro	Gigerenzer, G.	Risk Savvy	2014	ESP	heuristica
+57	V-Sesgos	libro	Gigerenzer, G.; Todd, P. M.; ABC Research Group	Simple Heuristics That Make Us Smart	1999	ESP	heuristica
+58	V-Sesgos	libro	Ariely, D.	Predictably Irrational	2008	ESP	sesgos
+59	V-Sesgos	libro	Taleb, N. N.	Fooled by Randomness	2004	ESP	azar
+60	V-Sesgos	libro	Taleb, N. N.	The Black Swan	2007	ESP	tail-risk
+61	VI-Riesgo	libro	Taleb, N. N.	Antifragile	2012	ESP	antifragilidad
+62	VI-Riesgo	libro	Taleb, N. N.	Statistical Consequences of Fat Tails	2020	ESP	colas-gordas
+63	VI-Riesgo	libro	Knight, F. H.	Risk, Uncertainty and Profit	1921	ESP	riesgo-vs-incertidumbre
+64	VI-Riesgo	libro	Bernstein, P. L.	Against the Gods: The Remarkable Story of Risk	1996	ESP	historia-riesgo
+65	VI-Riesgo	libro	Aven, T.	Risk Analysis	2015	ESP	riesgo
+66	VI-Riesgo	libro	Aven, T.; Renn, O.	Risk Management and Governance	2010	ESP	gobernanza-riesgo
+67	VI-Riesgo	libro	Morgan, M. G.; Henrion, M.	Uncertainty: A Guide to Dealing with Uncertainty in Quantitative Risk and Policy Analysis	1990	ESP	incertidumbre
+68	VI-Riesgo	libro	Vose, D.	Risk Analysis: A Quantitative Guide	2008	ESP	riesgo-cuantitativo
+69	VI-Riesgo	libro	Glasserman, P.	Monte Carlo Methods in Financial Engineering	2003	ESP	monte-carlo
+70	VI-Riesgo	libro	Rubinstein, R. Y.; Kroese, D. P.	Simulation and the Monte Carlo Method	2016	ESP	monte-carlo
+71	VII-Causalidad	libro	Pearl, J.	Causality: Models, Reasoning, and Inference (2a ed.)	2009	CORE	causalidad
+72	VII-Causalidad	libro	Pearl, J.; Mackenzie, D.	The Book of Why	2018	ESP	causalidad
+73	VII-Causalidad	libro	Hernan, M. A.; Robins, J. M.	Causal Inference: What If	2020	ESP	causalidad
+74	VII-Causalidad	libro	Imbens, G. W.; Rubin, D. B.	Causal Inference for Statistics, Social, and Biomedical Sciences	2015	ESP	causalidad
+75	VII-Causalidad	libro	Angrist, J. D.; Pischke, J.-S.	Mostly Harmless Econometrics	2009	ESP	causalidad
+76	VII-Causalidad	libro	Angrist, J. D.; Pischke, J.-S.	Mastering 'Metrics	2014	ESP	causalidad
+77	VII-Causalidad	libro	Cunningham, S.	Causal Inference: The Mixtape	2021	ESP	causalidad
+78	VII-Causalidad	libro	Morgan, S. L.; Winship, C.	Counterfactuals and Causal Inference (2a ed.)	2015	ESP	contrafactuales
+79	VII-Causalidad	libro	Spirtes, P.; Glymour, C.; Scheines, R.	Causation, Prediction, and Search (2a ed.)	2000	ESP	causalidad
+80	VII-Causalidad	libro	Peters, J.; Janzing, D.; Scholkopf, B.	Elements of Causal Inference	2017	ESP	causalidad
+81	VIII-Estadistica	libro	Hastie, T.; Tibshirani, R.; Friedman, J.	The Elements of Statistical Learning (2a ed.)	2009	CORE	ML-estadistico
+82	VIII-Estadistica	libro	James, G.; Witten, D.; Hastie, T.; Tibshirani, R.; Taylor, J.	An Introduction to Statistical Learning (2a ed.)	2021	ESP	ML-estadistico
+83	VIII-Estadistica	paper	Breiman, L.	Statistical Modeling: The Two Cultures	2001	ESP	explicar-vs-predecir
+84	VIII-Estadistica	paper	Shmueli, G.	To Explain or to Predict?	2010	CORE	explicar-vs-predecir
+85	VIII-Estadistica	libro	Harrell, F. E.	Regression Modeling Strategies (2a ed.)	2015	ESP	regresion
+86	VIII-Estadistica	libro	Efron, B.; Tibshirani, R.	An Introduction to the Bootstrap	1993	ESP	bootstrap
+87	VIII-Estadistica	libro	Wasserman, L.	All of Statistics	2004	ESP	estadistica
+88	VIII-Estadistica	libro	Casella, G.; Berger, R. L.	Statistical Inference (2a ed.)	2002	ESP	inferencia
+89	VIII-Estadistica	libro	Cox, D. R.	Principles of Statistical Inference	2006	ESP	inferencia
+90	VIII-Estadistica	libro	Burnham, K. P.; Anderson, D. R.	Model Selection and Multimodel Inference (2a ed.)	2002	ESP	seleccion-modelos
+91	IX-ML	paper	Breiman, L.	Random Forests	2001	ESP	random-forest
+92	IX-ML	paper	Friedman, J. H.	Greedy Function Approximation: A Gradient Boosting Machine	2001	ESP	gradient-boosting
+93	IX-ML	paper	Chen, T.; Guestrin, C.	XGBoost: A Scalable Tree Boosting System	2016	ESP	xgboost
+94	IX-ML	paper	Wolpert, D. H.	Stacked Generalization	1992	ESP	stacking
+95	IX-ML	paper	Dietterich, T. G.	Ensemble Methods in Machine Learning	2000	ESP	ensembles
+96	IX-ML	paper	Bergmeir, C.; Hyndman, R. J.; Koo, B.	A Note on the Validity of Cross-Validation for Evaluating Autoregressive Time Series Prediction	2018	ESP	walk-forward
+97	IX-ML	paper	Bergmeir, C.; Hyndman, R. J.; Benitez, J. M.	Bagging Exponential Smoothing Methods Using STL Decomposition and Box-Cox Transformation	2016	ESP	ensembles
+98	IX-ML	paper	Hyndman, R. J.; Koehler, A. B.	Another Look at Measures of Forecast Accuracy	2006	ESP	metricas-error
+99	IX-ML	paper	Makridakis, S.; Spiliotis, E.; Assimakopoulos, V.	The M5 Competition: Background, Organization, and Implementation	2022	ESP	benchmark
+100	IX-ML	paper	In, Y.; Jung, J.-Y.	Simple Averaging of Direct and Recursive Forecasts via Partial Pooling Using Machine Learning	2022	ESP	ensemble

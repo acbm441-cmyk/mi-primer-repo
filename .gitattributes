@@ -1,0 +1,7 @@
+# Normalización de finales de línea (evita ruido LF/CRLF en el historial)
+* text=auto
+
+# Artefactos binarios o de generación (sin normalización)
+*.csv text
+*.tsv text
+*.jsonl text

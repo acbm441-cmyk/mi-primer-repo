@@ -1,0 +1,26 @@
+# ── Python ────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+build/
+dist/
+
+# ── Datos (descargas / muestras grandes) ──────────────────────────────────
+data/
+
+# ── Scratch / sondas ──────────────────────────────────────────────────────
+_probe/
+
+# ── Entorno local & editores ──────────────────────────────────────────────
+.env
+.idea/
+.vscode/
+*.log
+
+# ── SO ────────────────────────────────────────────────────────────────────
+Thumbs.db
+.DS_Store
+Desktop.ini
